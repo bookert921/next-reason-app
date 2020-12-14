@@ -1,12 +1,26 @@
 # ninja log v5
 # start_time end_time mtime command hash
-0	30	1607987893217590247	src/Next.reast	ac22484e349ab21e
-30	31	1607987893237590193	src/Next.d	61ff8cf09557b055
-31	37	1607987893241590181	src/Next.cmj	92c2f3b508956bbb
-31	37	1607987893241590181	src/Next.cmi	92c2f3b508956bbb
-31	37	1607987893241590181	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/Next.bs.js	92c2f3b508956bbb
-0	15	1607987921321534020	src/Next.reast	ac22484e349ab21e
-15	16	1607987921321534020	src/Next.d	61ff8cf09557b055
-16	23	1607987921321534020	src/Next.cmj	92c2f3b508956bbb
-16	23	1607987921321534020	src/Next.cmi	92c2f3b508956bbb
-16	23	1607987921321534020	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/Next.bs.js	92c2f3b508956bbb
+0	18	1607989092662552856	src/components/Page.reast	3746a395641c4513
+18	29	1607989092670553032	src/components/Page.d	5cd82673a1487e92
+0	38	1607989092682553297	src/bindings/Next.reast	3250c3091824a4ff
+38	43	1607989092686553386	src/bindings/Next.d	a55aecf75e9c7253
+43	61	1607989092702553739	src/bindings/Next.cmj	8fe394f275924cc
+43	61	1607989092702553739	src/bindings/Next.cmi	8fe394f275924cc
+43	61	1607989092702553739	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/bindings/Next.bs.js	8fe394f275924cc
+61	110	1607989092750554800	src/components/Page.cmj	60a3748a10f7d45f
+61	110	1607989092750554800	src/components/Page.cmi	60a3748a10f7d45f
+61	110	1607989092750554800	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/components/Page.bs.js	60a3748a10f7d45f
+0	101	1607989092682553297	src/bindings/Next.d	bca2616fdda30d91
+102	604	1607989092682553297	src/bindings/Next.cmj	d65854c44bea8c85
+102	604	1607989092682553297	src/bindings/Next.cmi	d65854c44bea8c85
+102	604	1607989092682553297	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/bindings/Next.bs.js	d65854c44bea8c85
+1	752	1607989185260620375	src/components/layout/Page.reast	f174ee03a4747498
+753	754	1607989185268620555	src/components/layout/Page.d	40e2906a62738f15
+754	872	1607989185384623170	src/components/layout/Page.cmj	b6ac9b32650b2c18
+754	872	1607989185384623170	src/components/layout/Page.cmi	b6ac9b32650b2c18
+754	872	1607989185384623170	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/components/layout/Page.bs.js	b6ac9b32650b2c18
+0	117	1607989191104752171	src/components/layout/Page.reast	f174ee03a4747498
+117	119	1607989191104752171	src/components/layout/Page.d	40e2906a62738f15
+119	152	1607989191104752171	src/components/layout/Page.cmj	b6ac9b32650b2c18
+119	152	1607989191104752171	src/components/layout/Page.cmi	b6ac9b32650b2c18
+119	152	1607989191104752171	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/components/layout/Page.bs.js	b6ac9b32650b2c18
