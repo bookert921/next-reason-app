@@ -1,0 +1,1 @@
+{ "dirs" : [ "pages" , "pages/api" , "src" ] , "pkgs" : [ [ "bs-platform" , "/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/node_modules/bs-platform" ] , [ "reason-react" , "/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/node_modules/reason-react" ] ] , "generated" : [] }

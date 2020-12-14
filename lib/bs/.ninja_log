@@ -1,0 +1,12 @@
+# ninja log v5
+# start_time end_time mtime command hash
+0	30	1607987893217590247	src/Next.reast	ac22484e349ab21e
+30	31	1607987893237590193	src/Next.d	61ff8cf09557b055
+31	37	1607987893241590181	src/Next.cmj	92c2f3b508956bbb
+31	37	1607987893241590181	src/Next.cmi	92c2f3b508956bbb
+31	37	1607987893241590181	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/Next.bs.js	92c2f3b508956bbb
+0	15	1607987921321534020	src/Next.reast	ac22484e349ab21e
+15	16	1607987921321534020	src/Next.d	61ff8cf09557b055
+16	23	1607987921321534020	src/Next.cmj	92c2f3b508956bbb
+16	23	1607987921321534020	src/Next.cmi	92c2f3b508956bbb
+16	23	1607987921321534020	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/Next.bs.js	92c2f3b508956bbb
