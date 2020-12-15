@@ -10,8 +10,10 @@
     "re:watch": "bsb -make-world -clean-world -w"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
     "next": "10.0.3",
     "react": "^16.14.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
     "reason-react": "^0.9.1"
   },
