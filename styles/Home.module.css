@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
 .container {
-  min-height: 100vh;
   margin: 0;
   padding: 0 0.5rem;
   display: flex;
@@ -25,20 +24,6 @@
   font-family: 'Revalia', cursive;
   text-shadow: 0 0 10px black;
   text-align: center;
-}
-
-/* .description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-} */
-
-.code {
-  /* background: #fafafa; */
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
