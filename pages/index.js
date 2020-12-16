@@ -17,7 +17,17 @@ export default function Home() {
         <>
           <div className={styles.container}>
             <main className={styles.main}>
-              <div className={styles.grid}>
+              <p>
+                This is YOUR study space! Here you can track and manage study sessions, give and get feedback, and utilize built-in tools designed to make study time more productive. In addition, daily post will be made from researcher related to learning as much as possible, in as little time as possible.
+              </p>
+              <p>
+                Once you are signed in, you will have access to all of this plus tools dedicated to improving your learning such as a pomodoro timer, todo list, and more!
+              </p>
+              <p>
+                If you are interested to learn more, please submit your email below. If you have more specific questions, please see our Contacts page.
+              </p>
+
+              {/* <div className={styles.grid}>
                 <a href="https://nextjs.org/docs" className={styles.card}>
                   <h3>Documentation &rarr;</h3>
                   <p>Find in-depth information about Next.js features and API.</p>
@@ -45,8 +55,8 @@ export default function Home() {
                           Instantly deploy your Next.js site to a public URL with Vercel.
                   </p>
                 </a>
-              </div>
-            </main>
+              </div> */}
+            </main> 
           </div>
         </>
       )}
