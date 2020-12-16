@@ -22,6 +22,10 @@ li:nth-child(2) {
 } */
 .nav {
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
 }
 .navLink a {
     color: black;

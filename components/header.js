@@ -36,6 +36,11 @@ function Header({ user, loading }) {
           </li>
           <li className="nav-item" className={styles.navLink}>
             <a className="nav-link">
+              <Link href="/books-blog" >Book's Blog</Link>
+            </a>
+          </li>
+          <li className="nav-item" className={styles.navLink}>
+            <a className="nav-link">
               <Link href="/contact" >Contact</Link>
             </a>
           </li>

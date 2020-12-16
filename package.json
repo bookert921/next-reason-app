@@ -16,11 +16,15 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.13",
     "bootstrap": "^4.5.3",
+    "date-fns": "^2.16.1",
+    "gray-matter": "^4.0.2",
     "next": "10.0.3",
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
-    "reason-react": "^0.9.1"
+    "reason-react": "^0.9.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",

@@ -14,7 +14,7 @@ function footer() {
                         href="https://vercel.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
                         target="_blank"
                         rel="noopener noreferrer"
-                        
+                        style={{flexDirection: 'column', gap: '10px', alignItems: 'center'}}
                     >
                         Powered by{' '}
                         <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo}/>

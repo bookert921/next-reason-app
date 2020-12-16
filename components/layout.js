@@ -17,7 +17,7 @@ function Layout({ user, loading = false, children }) {
 
       <Header user={user} loading={loading} />
 
-      <main>
+      <main style={{marginTop: '120px', height: '100vh'}}>
         <div className="container">{children}</div>
       </main>
 
