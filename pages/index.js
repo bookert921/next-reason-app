@@ -1,8 +1,15 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+<<<<<<< HEAD
+=======
+import Layout from '../components/layout'
+import { useFetchUser } from '../lib/user'
+import {Container,Col, Row} from 'react-bootstrap'
+>>>>>>> blog-content
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -61,5 +68,31 @@ export default function Home() {
         </a>
       </footer>
     </div>
+=======
+    <Layout user={user} loading={loading}>
+      {loading && <p>Loading login info...</p>}
+      
+      <h1 className={styles.title}>
+        BOOK and BEYOND
+      </h1>
+      
+      <div className={styles.container}>
+        <main className={styles.mainContent}>
+          <img
+            className={styles.showpiece}
+            src="/ben-white-qDY9ahp0Mto-unsplash.jpg" 
+          ></img>
+          <p className={styles.mainText}>
+            Hello! My name is Booker, and I am a full-stack software engineer.
+          </p>
+          <div className="animate__animated animate__backInDown animate__delay-2s">
+            <h2 className={styles.subTitle}>
+              Welcome!
+            </h2>
+          </div>  
+        </main> 
+      </div>
+    </Layout>
+>>>>>>> blog-content
   )
 }

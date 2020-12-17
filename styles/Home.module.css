@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -15,6 +16,9 @@
   justify-content: center;
   align-items: center;
 }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+>>>>>>> blog-content
 
 .footer {
   width: 100%;
@@ -47,9 +51,10 @@
 }
 
 .title {
-  margin: 0;
+  /* margin-top: 100px; */
   line-height: 1.15;
   font-size: 4rem;
+<<<<<<< HEAD
 }
 
 .title,
@@ -97,19 +102,34 @@
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
+=======
+  font-family: 'Revalia', cursive;
+  text-shadow: 3px 5px 7px black;
+  margin-bottom: 40px;
+  animation: bounce;
 }
 
-.card h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.showpiece {
+  justify-content: center;
+  align-items: center;
+  width: 300px; 
+  max-width: 500px; 
+  display: flex;
+>>>>>>> blog-content
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.mainText {
+  font-size: 30px;
+}
+
+<<<<<<< HEAD
 .logo {
   height: 1em;
 }
@@ -119,4 +139,11 @@
     width: 100%;
     flex-direction: column;
   }
+=======
+.subTitle {
+  font-size: 40px;
+  font-family: 'Archetects Daughter';
+  font-weight: bolder;
+  color: rgb(168, 72, 72);
+>>>>>>> blog-content
 }

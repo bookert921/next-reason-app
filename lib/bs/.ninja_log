@@ -1,0 +1,18 @@
+# ninja log v5
+# start_time end_time mtime command hash
+0	102	1608058314549012577	src/bindings/Next.reast	3250c3091824a4ff
+103	106	1608058314633016536	src/bindings/Next.d	bca2616fdda30d91
+106	123	1608058314649017290	src/bindings/Next.cmj	d65854c44bea8c85
+106	123	1608058314649017290	src/bindings/Next.cmi	d65854c44bea8c85
+106	123	1608058314649017290	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/bindings/Next.bs.js	d65854c44bea8c85
+0	128	1608058314657017667	src/components/layout/Page.reast	f174ee03a4747498
+128	132	1608058314661017856	src/components/layout/Page.d	40e2906a62738f15
+0	41	1608058390960023027	src/components/layout/Page.reast	f174ee03a4747498
+41	44	1608058390960023027	src/components/layout/Page.d	40e2906a62738f15
+0	899	1608155410735200268	src/bindings/Next.reast	3250c3091824a4ff
+0	916	1608155410751200547	src/components/layout/Page.reast	f174ee03a4747498
+900	973	1608155410735200268	src/bindings/Next.d	bca2616fdda30d91
+916	989	1608155410751200547	src/components/layout/Page.d	40e2906a62738f15
+974	1039	1608155410735200268	src/bindings/Next.cmj	d65854c44bea8c85
+974	1039	1608155410735200268	src/bindings/Next.cmi	d65854c44bea8c85
+974	1039	1608155410735200268	/home/book/Documents/WebDev_Practice/finalProject/next-reason-app/src/bindings/Next.bs.js	d65854c44bea8c85

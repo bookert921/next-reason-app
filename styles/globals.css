@@ -1,9 +1,48 @@
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*, *::before, *::after {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  /* display: table; */
+}
+
+body {  
+  /* display: table-cell; */
+  /* background-color: #697CDD; */
+  font-family: Rubik;
+  color: white;
+}
+
+.main-container {
+  background-color: red;
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.content-wrapper {
+  padding-bottom: 100px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  font-size: 20px;
 }
 
 a {
@@ -11,6 +50,6 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.button {
+  margin-top: 20px;
 }

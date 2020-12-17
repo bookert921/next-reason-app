@@ -1,0 +1,17 @@
+.subTitle {
+    font-size: 50px;
+    font-family: 'Archetects Daughter';
+    font-weight: bolder;
+    color: rgb(168, 72, 72);
+}
+
+.formContainer {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    max-width: 500px;
+    padding: 40px 20px;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
