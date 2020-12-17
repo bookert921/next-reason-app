@@ -25,9 +25,10 @@ function footer() {
                         <h5>Follow Us</h5>
                     </Row>
                     <Row className="justify-content-center" style={{gap: '20px'}}>
-                        <FontAwesomeIcon icon={['fab', 'facebook']} style={{width: '20px'}}/>       
-                        <FontAwesomeIcon icon={['fab', 'twitter']} style={{width: '20px'}}/>
-                        <FontAwesomeIcon icon={['fab', 'instagram']} style={{width: '20px'}}/>  
+                        <a><FontAwesomeIcon icon={['fab', 'twitter']} style={{width: '20px'}}/></a>
+                        <a><FontAwesomeIcon icon={['fab', 'facebook']} style={{width: '20px'}}/></a>       
+                        <a><FontAwesomeIcon icon={['fab', 'instagram']} style={{width: '20px'}}/></a>  
+                        <a href="https://www.linkedin.com/in/bookert921/"><FontAwesomeIcon icon={['fab', 'linkedin']} style={{width: '20px'}}/></a>  
                     </Row>
                 </Col>
             </Row>

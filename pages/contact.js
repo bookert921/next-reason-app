@@ -1,12 +1,11 @@
 import {useState} from 'react'
 import Layout from '../components/layout'
-import emailjs, {init} from 'emailjs-com'
+import emailjs from 'emailjs-com'
 import { useFetchUser } from '../lib/user'
-import { set } from 'date-fns'
+import { Form } from 'react-bootstrap'
 
 export default function Contact() {
-    const { user } = useFetchUser()
-    // init("user_ZaGeVt3pdHwsfPvskHNAf")
+    const { user, loading } = useFetchUser()
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -27,36 +26,82 @@ export default function Contact() {
     }
 
     return (
-        <Layout user={user} >
-            <form className="contact-form" onSubmit={sendEmail}>
-                <label htmlFor="name">Name</label>
-                <input
-                    placeholder=""
-                    value={user.name} 
-                    type="text" 
-                    className="form-control" 
-                    name={user.name}  
-                    onChange={e => 
-                    setName(e.target.value)}    
-                />
-                <label htmlFor="email">Email</label>
-                <input
-                    placeholder={user.email}
-                    value={user.email} 
-                    type="email" 
-                    className="form-control" 
-                    name="user_email"  
-                    onChange={e => setEmail(e.target.value)}
-                />
-                <label>Message</label>
-                <textarea
-                    name="message" 
-                    value={message} 
-                    onChange={e => setMessage(e.target.value)}
-                    className="form-control"
-                />
-                <button type="submit" value="send" className="btn btn-primary">Submit</button>
-            </form>
+        <Layout user={user} loading={loading} className="container">
+            {loading && <p>Loading login info...</p>}
+            <h1>
+                Contact Us
+            </h1>
+
+            {!loading && !user && ( 
+                <>
+                    <Form onSubmit={sendEmail}>
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control
+                            value={name} 
+                            type="text" 
+                            name="name"  
+                            onChange={e => 
+                            setName(e.target.value)}    
+                        />
+                        <label htmlFor="email">Email</label>
+                        <Form.Control
+                            value={email}
+                            type="email" 
+                            name="user_email"  
+                            onChange={e => setEmail(e.target.value)}
+                        />
+                        <label htmlFor="message">Message</label>
+                        <Form.Control as="textarea"
+                            name="message" 
+                            value={message} 
+                            onChange={e => setMessage(e.target.value)}
+                        />
+                        <button 
+                            type="submit" 
+                            value="send" 
+                            className="btn btn-primary"
+                        >
+                            Submit
+                        </button>
+                    </Form>
+                </>
+            )}
+
+            {!loading && user && ( 
+                <>
+                    <Form onSubmit={sendEmail}>
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control
+                            placeholder={user.name}
+                            value={user.name} 
+                            type="text" 
+                            name="name"  
+                            onChange={e => 
+                            setName(e.target.value)}    
+                        />
+                        <label htmlFor="email">Email</label>
+                        <Form.Control
+                            value={email}
+                            type="email" 
+                            name="user_email"  
+                            onChange={e => setEmail(e.target.value)}
+                        />
+                        <label htmlFor="message">Message</label>
+                        <Form.Control as="textarea"
+                            name="message" 
+                            value={message} 
+                            onChange={e => setMessage(e.target.value)}
+                        />
+                        <button 
+                            type="submit" 
+                            value="send" 
+                            className="btn btn-primary"
+                        >
+                            Submit
+                        </button>
+                    </Form>
+                </>
+            )}
         </Layout>
     )
 }
