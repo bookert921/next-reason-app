@@ -5,7 +5,6 @@ function footer() {
     return (
         <>
         <footer className={styles.footer}>  
-            <Row>
                 <Col>
                 </Col>
                 <Col>
@@ -30,7 +29,6 @@ function footer() {
                         <a href="https://www.linkedin.com/in/bookert921/"><FontAwesomeIcon icon={['fab', 'linkedin']} style={{width: '20px'}}/></a>  
                     </Row>
                 </Col>
-            </Row>
         </footer>
         </>
     );

@@ -1,25 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
-/* header {
-    padding: 0.2rem;
-    color: #000000;
-    background-color: #e5e5e5;
-}
-nav {
-    max-width: 42rem;
-    margin: 1.5rem auto;
-}
-ul {
-    display: flex;
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-li {
-    margin-right: 1rem;
-}
-li:nth-child(2) {
-    margin-right: auto;
-} */
+
 .nav {
     background-color: white;
     /* position: fixed; */
@@ -35,21 +15,8 @@ li:nth-child(2) {
     text-align: center;
 }
 
-.navLink a {
-    color: black;
-    font-family: "Revalia";
-    font-size: 20px;
-}
-
 .navLink a:hover,
 .navLink a:focus,
 .navLink a:active {
     color: #2A5689;
 }
-/* button {
-    font-size: 1rem;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    background: none;
-} */

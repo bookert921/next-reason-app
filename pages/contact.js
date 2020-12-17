@@ -2,7 +2,7 @@ import {useState} from 'react'
 import Layout from '../components/layout'
 import emailjs from 'emailjs-com'
 import { useFetchUser } from '../lib/user'
-import { Form } from 'react-bootstrap'
+import { Container, Form } from 'react-bootstrap'
 import styles from '../styles/Contact.module.css'
 
 export default function Contact() {
@@ -38,6 +38,7 @@ export default function Contact() {
 
             {!loading && !user && ( 
                 <>
+                <Container className={styles.formContainer}>
                     <Form onSubmit={sendEmail}>
                         <Form.Label>Name</Form.Label>
                         <Form.Control
@@ -68,21 +69,26 @@ export default function Contact() {
                             Submit
                         </button>
                     </Form>
+                </Container>
                 </>
             )}
 
             {!loading && user && ( 
                 <>
-                    <Form onSubmit={sendEmail}>
+                <Container className={styles.formContainer}>
+                    <Form onSubmit={sendEmail} >
                         <Form.Label>Name</Form.Label>
+                    <div className={styles.formControl}>
                         <Form.Control
                             placeholder={user.name}
                             value={user.name} 
                             type="text" 
                             name="name"  
                             onChange={e => 
-                            setName(e.target.value)}    
+                            setName(e.target.value)}
                         />
+                    </div>
+                    <div className={styles.formControl}>
                         <label htmlFor="email">Email</label>
                         <Form.Control
                             value={email}
@@ -90,20 +96,26 @@ export default function Contact() {
                             name="user_email"  
                             onChange={e => setEmail(e.target.value)}
                         />
+                    </div>
+                    <div className={styles.formControl}>
                         <label htmlFor="message">Message</label>
                         <Form.Control as="textarea"
                             name="message" 
                             value={message} 
                             onChange={e => setMessage(e.target.value)}
                         />
+                    </div>
+                    <div className={styles.formControl}>
                         <button 
                             type="submit" 
                             value="send" 
-                            className="btn btn-primary"
+                            className="btn btn-primary button"
                         >
                             Submit
                         </button>
+                    </div>
                     </Form>
+                </Container>
                 </>
             )}
         </Layout>

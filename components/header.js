@@ -49,20 +49,26 @@ function Header({ user, loading }) {
         {!loading &&
           (user ? (
             <>
-            <Nav>
-              <Nav.Link className={styles.navLink}>
-                <Link href="/profile">Profile</Link>
-              </Nav.Link>
-              <Nav.Link className={styles.navLink}>
-                <Link href="/api/logout">Logout</Link>
-              </Nav.Link>
+            <Nav >
+              <li className="nav-item" className={styles.navLink}>
+                <a className="nav-link">
+                  <Link href="/profile" >Profile</Link>
+                </a>
+              </li>
+              <li className="nav-item" className={styles.navLink}>
+                <a className="nav-link">
+                  <Link href="/api/logout" >Logout</Link>
+                </a>
+              </li>
             </Nav>
             </>
           ) : (
             <Nav>
-              <Nav.Link className={styles.navLink}>
-                <Link href="/api/login">Login</Link>
-              </Nav.Link>
+              <li className="nav-item" className={styles.navLink}>
+                <a className="nav-link">
+                  <Link href="/api/login" >Login</Link>
+                </a>
+              </li>
             </Nav>
           ))} 
       </Navbar.Collapse>   
