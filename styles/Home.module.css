@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
-.container {
+/* .container {
   margin: 0;
   padding: 0 0.5rem;
   display: flex;
@@ -7,6 +7,10 @@
   justify-content: center;
   align-items: center;
   /* height: 100vh; */
+
+.main-container {
+  background-color: red;
+  position: relative;
 }
 
 .main {
@@ -15,10 +19,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
 }
 
 .title {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   line-height: 1.15;
   font-size: 4rem;
   font-family: 'Revalia', cursive;
@@ -27,16 +32,16 @@
   margin-bottom: 40px;
 }
 
-.grid {
+/* .grid {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
-}
+} */
 
-.card {
+/* .card {
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -46,16 +51,16 @@
   border-radius: 10px;
   border: 2px solid white;
   transition: color 0.15s ease, border-color 0.15s ease;
-}
+} */
 
-.card:hover,
+/* .card:hover,
 .card:focus,
 .card:active {
   color: #ffffff;
   border-color: #fdfdfd;
-}
+} */
 
-.card h3 {
+/* .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
@@ -64,7 +69,7 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
+} */
 
 @media (max-width: 600px) {
   .grid {

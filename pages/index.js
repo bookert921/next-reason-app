@@ -7,7 +7,7 @@ export default function Home() {
   const { user, loading } = useFetchUser()
   
   return (
-    <Layout user={user} loading={loading} className="container">
+    <Layout user={user} loading={loading}>
       <h1 className={styles.title}>
         BOOK and BEYOND
       </h1>

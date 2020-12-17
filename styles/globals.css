@@ -1,11 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-html,
-body {
+*, *::before, *::after {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  /* display: table; */
+}
+
+body {  
+  /* display: table-cell; */
   font-family: Rubik;
   background-color: #697CDD;
   color: white;
+}
+
+.main-container {
+  background-color: red;
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.content-wrapper {
+  padding-bottom: 100px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  font-size: 20px;
 }
 
 a {
@@ -13,6 +43,3 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}

@@ -6,6 +6,7 @@ import { Form } from 'react-bootstrap'
 
 export default function Contact() {
     const { user, loading } = useFetchUser()
+    
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');

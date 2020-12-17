@@ -3,6 +3,7 @@ import { getSortedPostsData } from '../lib/posts'
 import Date from '../components/date'
 import Link from 'next/link'
 import Layout from '../components/layout'
+import {useFetchUser}from '../lib/user'
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData()
@@ -14,9 +15,10 @@ export async function getStaticProps() {
 }
 
 const BooksBlog = ({allPostsData}) => {
+    const { user, loading } = useFetchUser()
     return (
         <>
-        <Layout>
+        <Layout user={user} loading={loading} >
             <section className={`${utilStyles.headingMd} ${utilStyles.padding10px}`}>
                 <ul className={utilStyles.list}>
                     {allPostsData.map(({ id, date, title }) => (

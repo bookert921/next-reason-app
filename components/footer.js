@@ -5,7 +5,6 @@ function footer() {
     return (
         <>
         <footer className={styles.footer}>  
-            <Container fluid>
             <Row>
                 <Col>
                 </Col>
@@ -26,13 +25,12 @@ function footer() {
                     </Row>
                     <Row className="justify-content-center" style={{gap: '20px'}}>
                         <a><FontAwesomeIcon icon={['fab', 'twitter']} style={{width: '20px'}}/></a>
-                        <a><FontAwesomeIcon icon={['fab', 'facebook']} style={{width: '20px'}}/></a>       
-                        <a><FontAwesomeIcon icon={['fab', 'instagram']} style={{width: '20px'}}/></a>  
+                        <a href="https://twitter.com/BookerT921"><FontAwesomeIcon icon={['fab', 'facebook']} style={{width: '20px'}}/></a>       
+                        <a href="https://www.instagram.com/kerbooart/"><FontAwesomeIcon icon={['fab', 'instagram']} style={{width: '20px'}}/></a>  
                         <a href="https://www.linkedin.com/in/bookert921/"><FontAwesomeIcon icon={['fab', 'linkedin']} style={{width: '20px'}}/></a>  
                     </Row>
                 </Col>
             </Row>
-            </Container>
         </footer>
         </>
     );

@@ -5,7 +5,7 @@ import styles from '../styles/Header.module.css'
 function Header({ user, loading }) {
   return (
     <>
-    <Navbar collapseOnSelect expand="sm" id="nav" className={styles.nav}>
+    <Navbar collapseOnSelect expand="lg" id="nav" className={styles.nav}>
       <Navbar.Brand>
         <Link href="/">
           <a><img 

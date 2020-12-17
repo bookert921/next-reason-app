@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from './header'
 import Footer from './footer'
+import { Container } from 'react-bootstrap'
 
 function Layout({ user, loading = false, children }) {
   return (
@@ -15,13 +16,15 @@ function Layout({ user, loading = false, children }) {
         />
       </Head>
 
+    <Container fluid className="main-container">      
       <Header user={user} loading={loading} />
 
-      <main style={{marginTop: '120px', height: '100vh'}}>
+      <main className="content-wrapper">
         <div className="container">{children}</div>
       </main>
 
       <Footer />
+    </Container>
     </>
   )
 }
