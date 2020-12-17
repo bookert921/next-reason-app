@@ -8,10 +8,12 @@ function About() {
 
   return (
     <Layout user={user} loading={loading}>
-      <h1 className={styles.title}>
-        BOOK and BEYOND
-      </h1>
-      <h3>About</h3>
+        <h1 className={styles.title}>
+          BOOK and BEYOND
+        </h1>
+        <div className="animate__animated animate__backInLeft">
+          <h3 className={styles.subTitle}>About</h3>
+        </div>
       <Container>
         <p>
           Untimately, this is an app decidated to growth, community, and learning potentials realized. My hope is that it grows into an all inclusive study space with management tools for prioritizing and optimizing study sessions.

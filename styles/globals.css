@@ -13,8 +13,8 @@ html {
 
 body {  
   /* display: table-cell; */
+  /* background-color: #697CDD; */
   font-family: Rubik;
-  background-color: #697CDD;
   color: white;
 }
 
@@ -27,7 +27,14 @@ body {
 
 .content-wrapper {
   padding-bottom: 100px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
 
 h1, h2, h3 {
   text-align: center;

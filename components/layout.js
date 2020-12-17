@@ -14,13 +14,22 @@ function Layout({ user, loading = false, children }) {
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
           crossorigin="anonymous"
         />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
       </Head>
 
-    <Container fluid className="main-container">      
+    <Container 
+      fluid 
+      className="main-container"
+    >      
       <Header user={user} loading={loading} />
 
       <main className="content-wrapper">
-        <div className="container">{children}</div>
+        <div className="container">
+          {children}
+        </div>
       </main>
 
       <Footer />

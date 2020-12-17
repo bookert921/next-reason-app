@@ -1,11 +1,19 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 .title {
+    /* margin-top: 100px; */
     line-height: 1.15;
     font-size: 4rem;
     font-family: 'Revalia', cursive;
-    text-shadow: 0 0 10px black;
-    text-align: center;
+    text-shadow: 3px 5px 7px black;
     margin-bottom: 40px;
+    animation: bounce;
+}
+
+.subTitle {
+    font-size: 40px;
+    font-family: 'Archetects Daughter';
+    font-weight: bolder;
+    color: rgb(168, 72, 72);
 }
 
 .container {

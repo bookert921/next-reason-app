@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import emailjs from 'emailjs-com'
 import { useFetchUser } from '../lib/user'
 import { Form } from 'react-bootstrap'
+import styles from '../styles/Contact.module.css'
 
 export default function Contact() {
     const { user, loading } = useFetchUser()
@@ -29,9 +30,11 @@ export default function Contact() {
     return (
         <Layout user={user} loading={loading} className="container">
             {loading && <p>Loading login info...</p>}
-            <h1>
-                Contact Us
-            </h1>
+            <div className="animate__animated animate__heartBeat">
+                <h3 className={styles.subTitle}>
+                    Contact Us
+                </h3>
+            </div>
 
             {!loading && !user && ( 
                 <>
