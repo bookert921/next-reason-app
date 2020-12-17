@@ -14,16 +14,35 @@ function About() {
         <div className="animate__animated animate__backInLeft">
           <h3 className={styles.subTitle}>About</h3>
         </div>
-      <Container>
-        <p>
-          Untimately, this is an app decidated to growth, community, and learning potentials realized. My hope is that it grows into an all inclusive study space with management tools for prioritizing and optimizing study sessions.
-        </p>
-        <p>
-          Learning can be hard enough as it is. There is so much to know and so little time to do it all. In addition, all the tools and resources you may use to manage your sessions are all over the place. Let us manage help you manage your productivity all in one place. 
-        </p>    
-        <p>
-          The product roadmap is to develop a Communication, Project Management,  and Knowledge Management integrated suite of applications all dedicated to getting the most out of your study time.  
-        </p>  
+      <Container >
+        <Row className={styles.override} >
+          <Col className={styles.showContainer}>
+            <img className={styles.showpiece} src="/road-trip-with-raj-o4c2zoVhjSw-unsplash.jpg "></img>
+          </Col>
+          
+          <Col>
+              <p >
+                I am on a journey towards becoming a software engineer.
+              </p>
+              <p>
+                Here you can read my blog posts about learning software engineering, as well as, what to do (and what not to do) after graduation!
+              </p>
+          </Col>
+          <Col>
+            <img className={styles.showpiece2} src="/scott-graham-5fNmWej4tAA-unsplash.jpg "></img>
+          </Col>
+
+          <Col>
+              <p>
+                The roadmap for this project involves to develop a Communications, Project Management,  and Knowledge Management integrated suite of applications, all dedicated to getting the most out of your programming, with related articles on improving learning and improving the quality of your coding sessions.   
+              </p>
+          <Col>
+            <p>
+              I called it Book and Beyond because it's about taking yourself to the <em>Next</em> level.
+            </p>
+          </Col>
+          </Col>
+        </Row>
       </Container>
     </Layout>
   )

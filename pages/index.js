@@ -23,7 +23,7 @@ export default function Home() {
           <p className={styles.mainText}>
             Hello! My name is Booker, and I am a full-stack software engineer.
           </p>
-          <div className="animate__animated animate__backInDown animate__delay-4s">
+          <div className="animate__animated animate__backInDown animate__delay-2s">
             <h2 className={styles.subTitle}>
               Welcome!
             </h2>
